@@ -11,6 +11,7 @@ export function Testimonio(Props){
         <p className="cargo-testimonio" > {Props.cargo}  en {Props.empresa} </p>
         <p className="texto-terstimonio" >{Props.testimonio}
         </p>
+        <p> id del elememnto {Props.id}</p>
 
       </div>
     </div>

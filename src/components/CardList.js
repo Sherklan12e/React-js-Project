@@ -11,6 +11,7 @@ const CardList = ({ data }) => {
           <Card.Body>
             <Card.Title>{item.titulo}</Card.Title>
             <Card.Text>{item.descripcion}</Card.Text>
+            
           </Card.Body>
         </Card>
       ))}
