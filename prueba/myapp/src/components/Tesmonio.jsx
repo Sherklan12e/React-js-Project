@@ -1,15 +1,15 @@
 import React from "react";
-
-function Terstimonio(){
+import '../Estilos/Testimonio.css'
+export function Testimonio(Props){
   return ( 
     <div className='contenedor-testimonio'>
       <img className="imagen-testimonio" 
-        src={require('../imagenes/waifu.png')  }  alt="foto de waifu" />
+        src={require(`../imagenes/waifu-${Props.imagen}.png`)  }  alt="foto de waifu" />
       
       <div className="contenedor-texto-testimonio">
-        <p className="nombre-testimonio">Falcu la latooor;</p>
-        <p className="cargo-testimonio" >Ingeniera en spotify</p>
-        <p className="texto-terstimonio" >lorem123Aprende los fundamentos de React en este curso desde cero.    Crearás cuatro proyectos paso a paso y aprender
+        <p className="nombre-testimonio">{Props.name} en {Props.pais} </p>
+        <p className="cargo-testimonio" > {Props.cargo}  en {Props.empresa} </p>
+        <p className="texto-terstimonio" >{Props.testimonio}
         </p>
 
       </div>
@@ -17,4 +17,3 @@ function Terstimonio(){
   );
 }
 
-export default Terstimonio;
