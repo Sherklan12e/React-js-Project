@@ -1,9 +1,21 @@
+import Butom2 from "./components/Buttom";
+
+function Butom() {
+  return (
+    <div>
+      <h1>lmao k</h1>
+
+    </div>
+  )
+}
+
 function App(){
   return (
     <div>
 
-      <h1>Hola a todos</h1>
-      <h1>Hola a todos</h1>
+      <h1>Hi! there</h1>
+      <Butom/>
+      < Butom2 />
     </div>
   )
 }
