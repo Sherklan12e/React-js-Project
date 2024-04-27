@@ -1,5 +1,6 @@
 import Butom2 from "./components/Buttom";
-
+import MiComponente from "./components/micomponent";
+import TaskList from './components/TaskList';
 function Butom() {
   return (
     <div>
@@ -9,6 +10,7 @@ function Butom() {
   )
 }
 
+
 function App(){
   return (
     <div>
@@ -16,6 +18,8 @@ function App(){
       <h1>Hi! there</h1>
       <Butom/>
       < Butom2 />
+      <MiComponente titulo="Re" contenido="El contenido de la pagina es esto ctmr"/> 
+      <TaskList />
     </div>
   )
 }
