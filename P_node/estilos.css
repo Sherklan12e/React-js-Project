@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    width: 30%;
+    height: 80vh;
+    background-color: rgba(45, 48, 48, 0.601);
+    margin: auto;
+    margin-top: 30px;
+    padding: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.card2{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+.card2 .contenedor-imagen{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+}
+.card2  .contenedor-imagen img{
+    max-width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+}
+.card2 .options{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    height: 40px;
+    font-size: 25px;
+}
