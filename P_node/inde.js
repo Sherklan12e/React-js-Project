@@ -4,7 +4,7 @@ const corrupcion = document.getElementById('corrupcion');
 function random(){
 
     
-    return Math.floor(Math.random() * 20)
+    return Math.floor(Math.random() * 500)
     
 }
 
